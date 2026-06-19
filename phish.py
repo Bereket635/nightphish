@@ -141,7 +141,9 @@ def install_localxpose():
             download('https://api.localxpose.io/api/v2/downloads/loclx-linux-amd64.zip', 'loclx')
         else:
             download('https://api.localxpose.io/api/v2/downloads/loclx-linux-386.zip', 'loclx')
-                                                                                                                                                                                 def banner():
+                                                                                                                                                                                 
+
+def banner():
     print(f"{RED}°|========================={BLUE}Badphisher{RED}=========================|°")
 
 def msg_exit():
